@@ -1,18 +1,32 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+# Conversor de Moeda - Challenge ONE - Java - Back end - 2025
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Projeto realizado durante o programa ONE (Oracle Next Education) - Criado pela Oracle e realizado em parceria com a Alura. Tem como finalizadade consulta uma api externa mostrando uma determinada conversao de moeda.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Funcionalidades
+
+- Consumo da API ExchangeRate,
+- Utilização da Biblioteca Gson,
+- Menu de interação com o usuario
+
+
+
+## Stack utilizada
+
+**Linguagem Java:** - **GSON** -
+**VS-CODE** -
+**API ExchangeRate** 
+
+
+
+## Documentação
+
+[Documentação da API ExchangeRate](https://www.exchangerate-api.com/docs/overview) 
+
+[Documentação Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
+
