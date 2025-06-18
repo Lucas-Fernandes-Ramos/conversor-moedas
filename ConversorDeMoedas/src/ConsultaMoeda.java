@@ -19,6 +19,7 @@ public class ConsultaMoeda {
                 + valor;
 
         // https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/HttpRequest.html
+       try {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(url))
@@ -38,5 +39,9 @@ public class ConsultaMoeda {
                 })
                 .join(); // Espera o processo assíncrono terminar
 
+       } catch (Exception e) {
+        System.out.println("Não foi possivel realizar a conversão");
+       }
+        
     }
 }
