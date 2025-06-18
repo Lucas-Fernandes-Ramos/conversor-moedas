@@ -12,7 +12,12 @@ Projeto realizado durante o programa ONE (Oracle Next Education) - Criado pela O
 
 - Consumo da API ExchangeRate,
 - Utilização da Biblioteca Gson,
-- Menu de interação com o usuario
+- Menu de interação com o usuario,
+- Tratamento de erros.
+- Exibição do resultado da conversão.
+- Conversão de valores entre diferentes moedas.
+
+imagem![image](https://github.com/Lucas-Fernandes-Ramos/conversor-moedas/blob/main/ConversorDeMoedas/img/exemplo-menu.png)
 
 
 
